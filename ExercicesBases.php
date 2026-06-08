@@ -57,6 +57,8 @@
 //     echo "Très bien";
 // }
 
+// 3. Boucles
+
 //Exo 3.1 
 // for ($i=1; $i<=10; $i++) {
 //     echo $i;
@@ -78,6 +80,8 @@
 //     echo "$n x $i = $resultat\n";
 // }
 
+//4. Debogage avec var_dump
+
 //Exo 4.1
 // $nombre1 = 5;
 // $nombre2 = 3;
@@ -88,9 +92,21 @@
 // var_dump($nombre2);
 // var_dump($somme);
 
+//Exo 4.2
+// $age = 18;
+// if($age == 21) {
+//  echo "Vous avez 21 ans.";
+// } else {
+//  echo "Vous n'avez pas 21 ans.";
+// }
+// var_dump($age);
 
+//5. Exercices d'application
+
+//Exo 5.1
 
 ?>
+
     
 </body>
 </html>
