@@ -79,12 +79,17 @@
 // }
 
 //Exo 4.1
-$nombre1 = 5
-$nombre2 = "3";
-$somme = $nombre1 + $nombre;
-echo "La somme est : $somme
+// $nombre1 = 5;
+// $nombre2 = 3;
+// $somme = $nombre1 + $nombre2;
+// echo "La somme est : $somme";
 
-var_dump($variable);
+// var_dump($nombre1);
+// var_dump($nombre2);
+// var_dump($somme);
+
+
+
 ?>
     
 </body>
