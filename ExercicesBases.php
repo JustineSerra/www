@@ -118,6 +118,26 @@
 // echo "Votre mot de passe généré est : " . $motDePasse;
 
 //Exo 5.2
+// $a = 22;
+// $b = 35;
+// $operation = '*'; 
+
+// if ($operation == '*') {
+//     $resultat=$a*$b;
+//     echo "Le résultat de la multiplication est : " . $resultat;
+// } elseif ($operation == '+') {
+//     $resultat=$a+$b;
+//     echo "Le résultat de l'addition est :" .$resultat;
+// } elseif ($operation == '-') {
+//     $resultat=$a-$b;
+//     echo "Le résultat de la soustraction est:" .$resultat;
+// } elseif ($operation == '/') {
+//     $resultat=$a/$b;
+//     echo "Le résultat de la division est:" .$resultat;
+// } else { 
+//     echo "Opération non reconnue.";
+// }
+
 
 ?>
 
