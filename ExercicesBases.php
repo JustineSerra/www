@@ -104,6 +104,20 @@
 //5. Exercices d'application
 
 //Exo 5.1
+// $motDePasse =""; //variable vide
+// for ($i=0; $i<8; $i++) { //boucle des 8 caractères aléatoires
+//     $typeDeCaractere = rand(0,1); //lettre (0) ou un chiffre (1) aléatoire
+//     if ($typeDeCaractere===0) {
+//         $codeAscii=rand(0, 25) + 97; //tire un nb entre 0 et 25 pour les lettres 
+//     } else {
+//         $codeAscii=rand(0,9) + 48; //tire un nb entre 0 et 9 pour les chiffres
+//     }
+//     $motDePasse .= chr($codeAscii); //convertti le code numérique en caractère
+    
+// }
+// echo "Votre mot de passe généré est : " . $motDePasse;
+
+//Exo 5.2
 
 ?>
 
