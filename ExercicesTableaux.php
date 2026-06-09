@@ -54,6 +54,27 @@
 // }
 
 //Exercice 2.3
+// $personne = [
+//     "nom" => "Durand",
+//     "prenom" => "Alice",
+//     "age" => 28
+// ];
+// $personne["age"] = 30;
+// echo "{$personne["prenom"]} {$personne["nom"]} a {$personne["age"]} ans."
+
+//Exercice 2.4
+// $personne = [
+//     "nom" => "Durand",
+//     "prenom" => "Alice",
+//     "age" => 30
+// ];
+// $personne["ville"] = "Paris";
+// echo "{$personne["prenom"]} {$personne["nom"]} a {$personne["age"]} ans et habite à {$personne["ville"]}."
+
+//Partie 3 : Applications combinées 
+
+//Exercice 2.4
+
 
 
 
