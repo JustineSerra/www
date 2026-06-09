@@ -29,9 +29,36 @@
 // }
 
 //Exercice 1.4
+// $fruits = ["pomme", "banane", "orange"];
+// $nombreDeFruits = count($fruits);
+// echo "Nombre total d'éléments contenus dans le tableau : $nombreDeFruits ";
+
+//Partie 2 : Tableaux associatifs 
+
+//Exercice 2.1
+// $personne = [
+//     "nom" => "Durand", //on utilise => en PHP pour afficher la clé à sa valeur
+//     "prenom" => "Alice",
+//     "age" => 28
+// ];
+// echo "{$personne["prenom"]} {$personne["nom"]} a {$personne["age"]} ans.";
+
+//Exercice 2.2 
+// $personne = [
+//     "nom" => "Durand",
+//     "prenom" => "Alice",
+//     "age" => 28
+// ];
+// foreach ($personne as $cle => $valeur) {
+//     echo $cle . " : " . $valeur . "<br>";
+// }
+
+//Exercice 2.3
 
 
-?>  
+
+
+?>
     
 </body>
 </html>
