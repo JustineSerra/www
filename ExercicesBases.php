@@ -136,7 +136,7 @@
 //     echo "Le résultat de la division est:" .$resultat;
 // } else { 
 //     echo "Opération non reconnue.";
-// }
+//}
 
 
 ?>
