@@ -73,11 +73,33 @@
 
 //Partie 3 : Applications combinées 
 
-//Exercice 2.4
+//Exercice 3.1
+// $prenoms = ["Justine", "Nassim", "Nahïl", "Jannah", "Nour"];
+// foreach ($prenoms as $prenom) {
+// echo "Bonjour, $prenom ! <br> ";
+// }
 
+//Exercice 3.2
+// $utilisateur = [
+//     "nom" => "Serra",
+//     "prenom" => "Justine",
+//     "email" => "test@hotmail.fr",
+//     "age" => 28
+// ];
+// echo "<p> Nom: {$utilisateur["nom"]} </p>";
+// echo "<p> Prénom: {$utilisateur["prenom"]} </p>";
+// echo "<p> Email: {$utilisateur["email"]} </p>";
+// echo "<p> Age: {$utilisateur["age"]} </p>";
 
-
-
+//Exercice 3.3
+// $livre = [
+//     "titre" => "1984",
+//     "auteur" => "George Orwell",
+//     "annee" => 1949
+// ];
+// echo "<pre>";
+// var_dump($livre);
+// echo "</pre>";
 
 ?>
     
