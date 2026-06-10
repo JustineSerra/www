@@ -123,7 +123,31 @@
 // print_r($prenom); 
 
 //Exercice 4.3
+// $prenom = [
+//     "Justine",     
+//     "François",
+//     "Assia",   
+//     "Aurélien",
+//     "Thomas"
+// ];
+// sort($prenom); //trie le tableau par ordre alphabétique croissant et réindexe à partir de 0
+// echo "<pre>"; //conserve la mise en forme du texte
+// print_r($prenom); //affiche le contenu du tableau
+// echo "</pre>";
 
+//Exercice 4.4
+// $prenom = [
+//     "Justine",    
+//     "François",
+//     "Assia",   
+//     "Aurélien",
+//     "Thomas"
+// ];
+// if (in_array("Marie",$prenom)) {
+//     echo "Le prénom Marie est présent dans le tableau";
+// } else {
+//     echo "Le prénom Marie n'est pas présent dans le tableau";
+// }
 
 ?>
     
