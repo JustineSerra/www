@@ -66,9 +66,63 @@
 // }
 
 //Exercice 3.2
+// if(isset($nom)) {
+//     echo "La variable nom existe";
+// } else {
+//     echo "La variable nom n'est pas définie";
+// }
 
+//Exercice 3.3
+// $chaineNonVide="Salut";
+// $zero = 0;
+// $un=1;
+// $chaineVide="";
 
+// echo 'Variable $chaineNonVide("Salut")';
+// var_dump((bool)$chaineNonVide);
+// echo "<br>";
 
+// echo 'Variable $zero(0)';
+// var_dump((bool)$zero);
+// echo "<br>";
+
+// echo 'Variable $un(1)';
+// var_dump((bool)$un);
+// echo "<br>";
+
+// echo 'Variable $chaineVide("")';
+// var_dump((bool)$chaineVide);
+
+//4. Fonctions sur les tableaux
+
+//Exercice 4.1
+// $prenom = [
+//     "Justine",
+//     "François",
+//     "Assia",
+//     "Aurélien",
+//     "Thomas"
+// ];
+// echo count($prenom);
+
+//Exercice 4.2
+// $prenom = [
+//     "Justine",
+//     "François",
+//     "Assia",    
+//     "Aurélien",
+//     "Thomas"
+// ];
+// array_push($prenom,"Luc"); //array_push ajoute un élément au tableau
+// echo "Après l'ajout du prénom Luc:";
+// print_r($prenom); //print_r affiche le contenu du tableau avec les valeurs
+// echo "<br>";
+
+// array_pop($prenom); //array_pop supprime le dernier élément du tableauS
+// echo "Après avoir supprimé le prénom Luc:"; 
+// print_r($prenom); 
+
+//Exercice 4.3
 
 
 ?>
