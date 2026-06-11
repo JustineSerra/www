@@ -8,19 +8,9 @@ include "includes/menu.php";
 <h2>Liste des recettes : </h2>
 
 <?php 
-foreach($recettes as $recette) {
-    echo "<h3>" . $recette["titre"] . "</h3>";
-    echo "<p>Temps : " . $recette["temps"] . "</p>";
-    echo "<p>Difficulté : " . $recette["difficulte"] ."</p>";
-
-    echo "<p>Ingrédients : </p>";
-    echo "<ul>";
-        
-    foreach($recette["ingredients"] as $ingredient) {
-        echo "<li>" . $ingredient . "</li>";
-    }
-
-    echo "</ul>";
+foreach($recettes as $index => $recette) {
+    echo "<h3><a href='recette.php?id=$index'>" . $recette["titre"] . "</a></h3>";
+    //en cliquant sur le titre de la recette, ça envoie vers une nouvelle page avec un index de 0 à 3 car 4 recettes
 }
 ?>
 
