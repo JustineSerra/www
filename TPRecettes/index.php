@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP PHP - Site de Recettes de Cuisine</title>
-</head>
-<body>
-
-<?php 
-
-
-
+<?php
+include "includes/header.php";
+include "includes/menu.php";
 ?>
-    
-</body>
-</html>
+
+<h2>Bienvenue sur le site Les Délices Maison</h2>
+
+<p>Découvrez nos recettes savoureuses ainsi que des astuces pour ne rater aucun plat.
+
+
+<?php
+include "includes/footer.php";
+?>

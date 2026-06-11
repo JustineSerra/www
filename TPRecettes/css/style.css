@@ -1,0 +1,41 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:20px;
+    background-color:#c8aee6;
+    color:#000000;
+}
+
+h1 {
+    text-align:center; /*aligne le titre au centre*/
+    color:#8f096d;
+}
+
+h2 {
+    color:#950dd491;
+}
+
+p {
+    line-height:1.5;
+}
+
+nav {
+    text-align:center; /*aligne le texte du menu au centre*/
+}
+
+nav a {
+    font-weight:bold; /*texte en gras*/
+    margin:0 10px; /*espacement entre chaque liste*/
+    text-decoration: none; /*supprime le tiret sous chaque liste */
+    color:#ca3ea7;
+}
+
+nav a:hover {
+    text-decoration:underline; 
+}
+
+footer {
+    text-align:center;
+    margin-top:30px;
+    padding-top:10px;
+    border-top:1px solid black; /*trait d'1px noir permettant de bien dissocier le footer du reste*/
+}
