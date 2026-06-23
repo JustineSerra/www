@@ -121,4 +121,37 @@ echo "La surface du petit rectangle est de : " . $petitRectangle->calculerSurfac
 ?>
 
 <!-- Exo 8, 9 et 10  -->
+<?php 
+
+class Voiture {
+    public $marque;
+    public $modele;
+    public $vitesse;
+
+    public function __construct($marque, $modele, $vitesseInitiale=0) {
+        $this->marque=$marque;
+        $this->modele=$modele;
+        $this->vitesse=$vitesseInitiale;
+    }
+
+    public function accelerer($kmh) {
+        $this->vitesse += $kmh;
+    }
+
+    public function afficherVitesse() {
+        echo "La vitesse actuelle de la " . $this->marque . " est de : " .$this->vitesse . " km/h ";
+    }
+}
+$maVoiture = new Voiture("Peugeot", "208");
+
+//Accélération de 20km/h
+$maVoiture->accelerer(20);
+$maVoiture->afficherVitesse();
+
+//Accélération de 30km/h supplémentaire
+$maVoiture->accelerer(30);
+$maVoiture->afficherVitesse();
+
+
+?>
 
