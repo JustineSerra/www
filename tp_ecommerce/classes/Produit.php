@@ -5,7 +5,7 @@ abstract class Produit {
     protected float $prixHT;
     //propriétés protégées
 
-    protected function __construct(string $nom, float $prixHT) {
+    public function __construct(string $nom, float $prixHT) {
         $this->nom=$nom;
         $this->prixHT=$prixHT;
     }
